@@ -47,7 +47,7 @@ set searchengines+={"baidu":"http://www.baidu.com/s?wd={{keyword}}","rae":"http:
 "set defaultsearch=yahoo
 
 " Disable autocomplete
-"set noautocomplete
+set noautocomplete
 
 " Change enable vrome keybinding, default is 
 set enable_vrome_key=
