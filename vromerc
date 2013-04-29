@@ -4,7 +4,7 @@
 " Change key mapping in normal mode, please check Vrome Features for available key mapping
 map J gt
 map K gT
-map <A-|> <C-^>
+map <M-|> <C-^>
 
 " Remove key mapping in normal mode
 unmap
@@ -39,7 +39,7 @@ set disablesites=mail.google.com, reader.google.com // don't run Vrome in those 
 set searchengines={"google":"http://www.google.com/search?q={{keyword}}", "yahoo":"http://search.yahoo.com/search?p={{keyword}}","wikipedia":"http://en.wikipedia.org/wiki/{{keyword}}","answers":"http://www.answers.com/main/ntquery?s={{keyword}}","yubnub":"http://yubnub.org/parser/parse?command={{keyword}}"}
 
 " You could also add some new searchengines without overwrite build in.
-set searchengines+={"baidu":"http://www.baidu.com/s?wd={{keyword}}","RAE":"http://lema.rae.es/drae/?val={{keyword}}", "Translate":"http://translate.google.com/#en/es/{{keyword}}"}
+set searchengines+={"baidu":"http://www.baidu.com/s?wd={{keyword}}","rae":"http://lema.rae.es/drae/?val={{keyword}}","Tran":"http://translate.google.com/#en/es/{{keyword}}"}
 "set searchengines+={"RAE":"http://lema.rae.es/drae/?val={{keyword}}"}
 "set searchengines+={"Translate":"http://translate.google.com/#en/es/{{keyword}}"}
 
